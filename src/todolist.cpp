@@ -2,8 +2,6 @@
 #include <iostream>
 
 //NOTE: Add-ons 1 & 2 are implemented to improve code
-#include <iostream>
-
 void TodoList::add(const std::string& taskName) {
     if (taskName.empty()) {
         std::cout << "Task name cannot be empty.\n";
